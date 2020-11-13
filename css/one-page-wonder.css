@@ -3,6 +3,9 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
+body{
+  overflow-x: hidden;
+}
 
 body {
   font-family: 'Lato';
@@ -56,7 +59,7 @@ margin-top: -4rem;
 }
 .logoprincipal{
 text-align: center;
-width: 50%;
+width: 90%;
 height: auto;
 margin-top: -4rem;
 margin-bottom: 4rem;
@@ -126,6 +129,63 @@ header.masthead .bg-circle-4 {
   background-color: #ed1a24 !important;
 }
 
+
+.flexbox{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+}
+
+.customp{
+  text-align: center;
+  font-size:
+}
+
+
+.customimage1 , .customimage2{
+  width: 400px;
+  height: auto;
+}
+.box1 , .box2{
+  width: 400px;
+
+}
+
+
+#paypalboton{
+  margin-top: 1rem;
+  border-radius:200px;
+}
+
+#irapromos{
+
+         all: unset;
+
+
+}
+
+a{
+  color: black;
+  font-size: 1.5rem;
+  background-color: white;
+  padding: .8rem;
+  border-radius: 100px;
+
+
+
+}
+
+a:hover{
+  color: #b0241e;
+  text-decoration: none;
+
+
+}
+
+
 @media (min-width: 992px) {
   header.masthead {
     padding-top: calc(10rem + 55px);
@@ -141,4 +201,13 @@ header.masthead .bg-circle-4 {
 
 .bg-primary {
   background-color: transparent !important;
+}
+
+.flexbox{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
 }
